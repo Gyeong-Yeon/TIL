@@ -21,7 +21,7 @@
 **Hyper Text**
 
 - 참조(하이퍼링크)를 통해 사용자가 한 문서에서 다른 문서로 즉시 접근 할 수 있는 텍스트
-- 하이퍼 텍스트가 쓰인 기술등 중 가장 중요한 2가지 (http, html)
+- 하이퍼 텍스트가 쓰인 기술들 중 가장 중요한 2가지 (http, html)
 
 **Markup Language**
 
@@ -49,14 +49,13 @@
 
 ```html
 <!DOCTYPE html> #html 문서정의
-<html lanng="ko">
+<html lang="ko">
 	<head> 
         <meta charset="UTF-8"> # HTML 문서의 메타 데이터를 통해 문서 정보 전달
         <title>Document</title>
     </head> # 해당 html 문서의 정보를 담고 있다.
-    		# (제목, 문자의 인코딩, 외부 로딩 파일 지정)
-    		# 브라우저에는 나타나지 않음.
-    		# CSS 선언 혹은 외부 로딩 파일 지정 등도 작성    	
+    		# (제목, 문자의 인코딩, CSS 선언 혹은 외부 로딩 파일 지정)
+    		# 브라우저에는 나타나지 않음.	
     <body> 
     </body> #브라우저 화면에 실질적으로 나타나는 정보
 </html>

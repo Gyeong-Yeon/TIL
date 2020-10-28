@@ -1,0 +1,5 @@
+print("%s %d" % ("kor", 90))
+print("%s %d" % ("mat", 80))
+print("%s %d" % ("eng", 100))
+print("%s %d" % ("sum", 90+80+100))
+print("%s %d" % ("avg", (90+80+100)/3))

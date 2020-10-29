@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0921b9f4-3da5-4ece-a488-5553338dd4cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../반복제어문1/126_반복제어문1_형성평가2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문1/127_반복제어문1_형성평가3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문1/536_반복제어문1_자가진단1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문1/537_반복제어문1_자가진단2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문1/539_반복제어문1_자가진단4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문2/131_반복제어문2_형성평가2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문2/132_반복제어문2_형성평가3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문2/133_반복제어문2_형성평가4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문3/549_반복제어문3_자가진단1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문3/550_반복제어문3_자가진단3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문3/551_반복제어문3_자가진단4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문3/552_반복제어문3_자가진단5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문3/553_반복제어문3_자가진단6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../반복제어문3/634_반복제어문3_자가진단2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../배열1/555_배열1_자가진단1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20200916224613202-1601853636600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20200916224613202.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20200917235958795-1601853651812.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20200917235958795.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004025015431.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004025402544.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004025914535.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004224945053-1601853636600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004224945053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004230158205-1601853636599.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004230158205.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004231412473-1601853651812.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004231412473.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004231529698-1601853651812.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.assets/image-20201004231529698.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../django.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1jXMKCk5ZJwSDNlgeKTOM4xQGdE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0921b9f4-3da5-4ece-a488-5553338dd4cf" name="Default Changelist" comment="" />
+      <created>1603945916406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603945916406</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

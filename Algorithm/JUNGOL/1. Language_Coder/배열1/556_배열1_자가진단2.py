@@ -1,9 +1,9 @@
 arr = [0] * 10
 
 for i in range(10):
-    arr[i] = int(input())
+    arr[i] = i+1
 
-for _ in range(10):
-    print(arr.pop(0), end=" ")
+for i in range(10):
+    print(arr[i], end=" ")
 
 

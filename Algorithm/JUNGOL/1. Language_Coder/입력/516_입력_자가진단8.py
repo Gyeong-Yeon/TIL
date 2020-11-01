@@ -1,0 +1,6 @@
+fl1 = float(input())
+fl2 = float(input())
+st = input()
+print("%0.2f" % fl1)
+print("%0.2f" % fl2)
+print("%s" % st)

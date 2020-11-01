@@ -8,12 +8,12 @@ yard? 10.1
 10.1yard = 923.5cm
 
 '''
-print("yard?", end="")
+print("yard? ", end="")
 yard = float(input())
 
-cm = yard * 91.44
-cm = round(cm, 1)
+cm1 = yard * 91.44
+cm2 = round(cm1, 1)
 
-print("{}yard = {}cm".format(yard, cm))
+print("{}yard = {}cm".format(yard, cm2))
 # print(f'{yard}yard = {cm}cm')
 # print('%fyard = %.1fcm' % (yard, cm))

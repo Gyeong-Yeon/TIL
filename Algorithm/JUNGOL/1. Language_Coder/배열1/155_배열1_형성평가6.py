@@ -1,11 +1,11 @@
 arr = ['J', 'U', 'N', 'G', 'O', 'L']
 
-input_str = str(input())
+input_str = input()
 
 for i in range(len(arr)):
-    if arr[i] == input_str:
+    if input_str in arr:
         result = arr.index(input_str)
     else:
-        reuslt = 'none'
+        result = 'none'
 
-print(reuslt)
+print(result)

@@ -1,6 +1,6 @@
-first_array = map(str,input().split())
+first = input()
 first_arr = [list(map(int,input().split())) for _ in range(2)]
-second_array = map(str,input().split())
+second = input()
 second_arr = [list(map(int,input().split())) for _ in range(2)]
 
 multiple_arr = [[0] * 4 for _ in range(2)]

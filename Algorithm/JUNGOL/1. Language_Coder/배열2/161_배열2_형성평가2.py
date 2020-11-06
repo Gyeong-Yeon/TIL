@@ -9,5 +9,5 @@ for i in range(len(arr)):
 for i in range(len(arr)-1):
     ten[(arr[i]//10)*10] += 1
 
-for i in range(len(ten)):
-    print("{} : {} person".format())
+for key in ten.keys():
+    print("{} : {} person".format(key, ten[key]))

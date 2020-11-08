@@ -17,6 +17,6 @@ for tc in range(1,T+1):
     max = 0
     for value in count.values():
         if value > max:
-            max= value
+            max = value
 
     print("#{} {}".format(tc, max))

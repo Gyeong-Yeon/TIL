@@ -9,7 +9,7 @@ for tc in range(1, T+1):
 
     if M % 2 != 0: # M이 홀수일 때
         for i in range(N):  # 가로 확인
-            for j in range(mid, N - mid):
+            for j in range(mid, N-mid):
                 peri = 0
                 for t in range(1, mid+1):
                     if arr[i][j-t] == arr[i][j+t]:
@@ -20,11 +20,15 @@ for tc in range(1, T+1):
         for i in range(mid, N - mid):  # 세로 확인
             for j in range(N):
                 peri = 0
+                col = []
                 for t in range(1, mid + 1):
                     if arr[i-t][j] == arr[i+t][j]:
                         peri += 1
                 if peri == mid:
-                    result = ''.join(arr[i-mid:i+mid][j])
+                    for b in range(-mid+1,mid+1):
+                        col.append(arr[i+b][j])
+                    result = ''.join(col)
+
 
     else: # M이 짝수일 때
         for i in range(N): # 가로 확인
@@ -39,16 +43,15 @@ for tc in range(1, T+1):
         for i in range(mid-1,N-mid): # 세로 확인
             for j in range(N):
                 peri = 0
+                col = []
                 for t in range(1,mid+1):
                     if arr[i+1-t][j] == arr[i+t][j]:
                         peri += 1
                 if peri == mid:
-
-                    result = ''.join(arr[i+1-mid:i+mid+1][j])
+                    for b in range(-mid+1, mid + 1):
+                        col.append(arr[i + b][j])
+                    result = ''.join(col)
 
     print("#{} {}".format(tc, result))
-
-
-
 
 

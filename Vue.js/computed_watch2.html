@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <p>a : {{ a }}</p>
+    <p>Computed: a 제곱은 {{ square }} 입니다.</p>
+    <p>Watch: a는 {{ increase }}만큼 변경되었습니다.</p>
+    <input type="number" v-model.number="delta">
+    <button @click="a = a + delta">a 증가</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue ({
+      el: '#app',
+      data: {
+        a: 0,
+        delta: 0,
+        increase: 0,
+      },
+      computed: {
+        square: function () {
+          console.log('Computed!!!!')
+          return this.a**2
+        }
+      },
+      watch: {
+        a: function (newVal, oldVal) {
+            console.log('New: ', newVal)
+            console.log('Old: ', oldVal)
+            this.increase = newVal - oldVal
+        }
+      },
+    })
+  </script>
+</body>
+</html>

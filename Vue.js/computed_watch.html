@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+      <p>Methods : {{ timeByMethod() }}</p>
+      <p>Computed : {{ timeByComputed }}</p>
+      <p>a: {{ a }}</p>
+      <p>b: {{ b }}</p>
+      <button @click="a++">a 증가</button>
+      <button @click="b++">b 증가</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        a: 0,
+        b: 0,
+        c: 0,
+      },
+      methods: {
+        timeByMethod: function () {
+          console.log('Method!!!!!')
+          return `${Date.now()}`
+        }
+      },
+      computed: {
+        timeByComputed: function () {
+          console.log('Computed @@@@@')
+          return `${Date.now()} ${this.b}`
+        }
+      },
+      watch: {
+        c: function () {
+          console.log('watch #######')
+        }
+      },
+    })
+  </script>
+</body>
+</html>

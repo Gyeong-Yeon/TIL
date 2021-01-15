@@ -2,7 +2,7 @@
 
 > 코드의 History를 관리하는 도구. 개발된 과정과 역사를 볼 수 있으며, 프로젝트의 이전 버전을 복원하고 변경 사항을 비교, 분석 및 병합도 가능
 
-### 
+
 
 ## git, DVCS(Distributed Version Control System)
 
@@ -13,6 +13,17 @@
 .`git` : Repository 주소 정보. `.git`폴더가 위치하는 곳만 관리(상위 폴더 X). 
 
 ​			`.git`을 지우면 local DB가 날라가지만, Repository에는 남아 있음(2원 관리).
+
+
+
+### git 공간
+
+- working dir
+  - 실제 작업공간
+- staging area
+  - add 명령어를 입력했을떄 임시로 저장이 되는 공간
+- local repo (.git)
+  - commit 명령어를 입력했을 떄 버전이 기록되는 공간
 
 
 
@@ -67,64 +78,35 @@
 
 5. Blog 꾸미기
 
-   
-
-
-
 
 
 Pull Add Commit Push - PACP
 
 
 
+### git 명령어
 
-
-#### 외장 모듈 2가지의 종류
-
-- 파이썬이 기본으로 제공하는 외장모듈 (책상 서랍에 위치)
-  - import
-  - 사용
-- 다른 사람이 만들어둔 외장모듈(문구점에 사러가야 함)
-  - pip 툴을 이용해서 외장 모듈을 설치
-  - import
-  - 사용
-
-
-
-
-
-#### 웹크롤링을 위한 외장모듈
-
-1. requests
-
-   - 간편한  http 요청처리기가 들어 있는 모듈
-
-   - 설치 하는 방법
-
-     `pip install requests` 
-
-     
-
-2. BeautifulSoup
-
-   - 텍스트로 나타나는 html을 우리가 사용하기 쉽게 바꿔주는 역할을 하는 모듈
-
-   - 설치가 필요함
-
-     `pip install beatifulsoup4`
-
-   - 파이썬 내장 함수인 json을 활용해서 json -> Dictionary 형태로 변환해서 사용.
+- `git init`
+  - `.git`폴더를 만들어 주는 명령어
+  - `최초 한번`만 실행한다.
+- `git add`
+  - 뒤에 staging area로 올리고 싶은 파일을 적어준다.
+  - `. `을 입력하면 전체 파일이 추가된다.
+- `git commit`
+  - 버전을 생성
+  - `-m` 옵션을 일반적으로 추가해준다.
+- `git remote add`
+  - 원격 저장소의 주소를 등록
+  - origin이라는 이름을 기본값으로 사용
+  - `최초 한번`만 실행한다.
+- `git push`
+  - 등록된 원격 저장소로 커밋 기록을 업로드
 
 
 
 
 
-#### 웹 크롤링 & API 통신의 큰 흐름
 
-1. url로 요청을 한다.
-2. 받은 응답을 가지고 원하는 데이터를 가지고 온다.
-
-   
 
 
 
